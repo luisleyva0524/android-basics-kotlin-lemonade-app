@@ -157,7 +157,6 @@ class MainActivity : AppCompatActivity() {
      */
     private fun setViewElements() {
         val textAction: TextView = findViewById(R.id.text_action)
-        //val textAction = resources.getString(R.string.text_action)
         // TODO: set up a conditional that tracks the lemonadeState
         when (lemonadeState) {
             SELECT -> {
